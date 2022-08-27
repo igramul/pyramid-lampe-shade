@@ -5,7 +5,7 @@ module lampe_shade() {
 
 
 module mantis_kopf() {
-    import("Mantis-Kopf.svg_5mm.stl", convexity = 5);
+    import("Mantis-Kopf.svg_2mm.stl", convexity = 5);
 }
 
 module igramul() {
@@ -14,9 +14,7 @@ module igramul() {
 
 
 union() {
-    difference() {
-        lampe_shade();
-        translate([-52.5,-93,20]) rotate([75.5,0,0]) scale([0.6,0.6,0.6]) mantis_kopf();
-    }
+    lampe_shade();
+    translate([-57,-89.5,40]) rotate([76,0,0]) scale([1.3,1.3,1]) mantis_kopf();
     translate([30,96.3,10]) rotate([75.5,0,180]) scale([0.6,0.6,0.6]) igramul();
 }
