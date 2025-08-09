@@ -4,3 +4,5 @@ This simple lamp shade was designed for the illumination of a mantis terrarium.
 
 It can by printed with PLA without support on an simple FDP 3D printer.
 
+![Pyramid Lamp](./Pyramid-Lamp.jpg "Pyramid Lamp")
+
